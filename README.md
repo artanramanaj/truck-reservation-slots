@@ -53,9 +53,9 @@ When the data changes in real-time via SSE (Server-Sent Events), the UI updates 
 
 -TECHNOLOGIES USED
 
-Vite - modern frontend build tool
-Vue 3 - (composition api) javascript framework for SPA applications
-TypeScript - static type defination for javascript
-Tailwind - CSS framework , mobile and utility first, custom classes and configurations in style.css file
-Moment.js - Library for date format
+Vite - modern frontend build tool,
+Vue 3 - (composition api) javascript framework for SPA applications,
+TypeScript - static type defination for javascript,
+Tailwind - CSS framework , mobile and utility first, custom classes and configurations in style.css file,
+Moment.js - Library for date format,
 Axios - Library that simplifies making async http request to API-s

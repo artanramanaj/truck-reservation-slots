@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-red: #ff0000;
+  --color-primary-gray: #f2f2f2;
+  --color-primary-green: #1a932e;
+  --color-primary-yellow: #faee02;
+  --color-primary-blue: #003049;
+  --color-primary-white: #fff;
+}
+
+@layer utilities {
+  .flex-center-row {
+    @apply flex justify-center items-center;
+  }
+  .flex-center-col {
+    @apply flex flex-col justify-center items-center;
+  }
+  .field-headers {
+    @apply mx-auto text-primary-blue text-[20px] font-semibold;
+  }
+  .container {
+    margin: 0 auto;
+    padding: 1rem;
+  }
+}
+
+@layer base {
+  h1 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--color-primary-white);
+
+    @media (min-width: 768px) {
+      font-size: 2rem;
+    }
+
+    @media (min-width: 1024px) {
+      font-size: 2.5rem;
+    }
+  }
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--color-primary-blue);
+
+    @media (min-width: 768px) {
+      font-size: 1.8rem;
+    }
+
+    @media (min-width: 1024px) {
+      font-size: 2rem;
+    }
+  }
+
+  h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--color-primary-blue);
+
+    @media (min-width: 768px) {
+      font-size: 1.4rem;
+    }
+
+    @media (min-width: 1024px) {
+      font-size: 1.6rem;
+    }
+  }
+}

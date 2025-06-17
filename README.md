@@ -1,5 +1,21 @@
 Project Setup
 
+#1 Clone the repository
+Open your terminal and run :
+git clone https://github.com/artanramanaj/truck-reservation-slots.git
+
+#2 navigate to the project folder
+cd truck-reservation-slots
+
+#3 install dependencies
+Make sure Node.js (version 18 or higher) is installed before running the command below.
+npm install
+
+#4 Run the development server
+npm run dev
+
+---
+
 APPLICATION OVERVIEW
 
 The application displays and updates real-time truck reservation slots at terminal locations. It is compatible with all devices.

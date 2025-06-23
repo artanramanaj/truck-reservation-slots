@@ -1,7 +1,9 @@
 <script setup lang="ts">
 import { ref } from "vue";
 
-const footerTitle = ref<string>("CONROO WEB APP ASSIGNMENT - FOOTER");
+const footerTitle = ref<string>(
+  "Built with precision | Privacy Policy | Terms of Service"
+);
 </script>
 
 <template>

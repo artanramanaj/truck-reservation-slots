@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
 
-const headerTitle = ref<string>("CONROO WEB APP ASSIGNMENT - HEADER");
+const headerTitle = ref<string>("Terminal Reservation Slot Viewer");
 </script>
 
 <template>
